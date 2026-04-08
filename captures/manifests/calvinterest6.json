@@ -1,0 +1,4503 @@
+{
+  "frame_count": 900,
+  "message_count": 2385,
+  "event_count": 3007,
+  "decode_failures": 0,
+  "decompress_failures": 0,
+  "payload_types": {
+    "hb": 60,
+    "im_enter_room_resp": 1,
+    "msg": 839
+  },
+  "message_types": {
+    "WebcastAISummaryMessage": 3,
+    "WebcastCaptionMessage": 213,
+    "WebcastChatMessage": 459,
+    "WebcastCommentTrayMessage": 86,
+    "WebcastGameServerFeatureMessage": 1,
+    "WebcastGiftDynamicRestrictionMessage": 1,
+    "WebcastGiftMessage": 24,
+    "WebcastGiftPanelUpdateMessage": 23,
+    "WebcastLikeMessage": 604,
+    "WebcastLinkLayerMessage": 6,
+    "WebcastLinkMessage": 4,
+    "WebcastLinkMicFanTicketMethod": 17,
+    "WebcastLinkMicLayoutStateMessage": 1,
+    "WebcastLinkMicMethod": 14,
+    "WebcastMemberMessage": 532,
+    "WebcastPrivilegeAdvanceMessage": 3,
+    "WebcastRoomMessage": 2,
+    "WebcastRoomUserSeqMessage": 302,
+    "WebcastSocialMessage": 90
+  },
+  "event_types": {
+    "Caption": 213,
+    "Chat": 459,
+    "Follow": 85,
+    "Gift": 24,
+    "GiftDynamicRestriction": 1,
+    "GiftPanelUpdate": 23,
+    "Join": 532,
+    "Like": 604,
+    "LinkLayer": 6,
+    "LinkMessage": 4,
+    "LinkMicFanTicket": 17,
+    "LinkMicLayoutState": 1,
+    "LinkMicMethod": 14,
+    "Member": 532,
+    "RoomMessage": 2,
+    "RoomUserSeq": 302,
+    "Share": 5,
+    "Social": 90,
+    "Unknown": 93
+  },
+  "sub_routed": {
+    "follow": 85,
+    "share": 5,
+    "join": 532,
+    "live_ended": 0
+  },
+  "unknown_types": {
+    "WebcastAISummaryMessage": 3,
+    "WebcastCommentTrayMessage": 86,
+    "WebcastGameServerFeatureMessage": 1,
+    "WebcastPrivilegeAdvanceMessage": 3
+  },
+  "like_accumulator": {
+    "event_count": 604,
+    "backwards_jumps": 0,
+    "final_max_total": 396066,
+    "final_accumulated": 8436,
+    "acc_total_monotonic": true,
+    "accumulated_monotonic": true,
+    "events": [
+      {
+        "wire_count": 15,
+        "wire_total": 289193,
+        "acc_total": 289193,
+        "accumulated": 15,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 289305,
+        "acc_total": 289305,
+        "accumulated": 30,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 289448,
+        "acc_total": 289448,
+        "accumulated": 45,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 289645,
+        "acc_total": 289645,
+        "accumulated": 60,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 289705,
+        "acc_total": 289705,
+        "accumulated": 75,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 289945,
+        "acc_total": 289945,
+        "accumulated": 90,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 290169,
+        "acc_total": 290169,
+        "accumulated": 105,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 290349,
+        "acc_total": 290349,
+        "accumulated": 120,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 290544,
+        "acc_total": 290544,
+        "accumulated": 135,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 290697,
+        "acc_total": 290697,
+        "accumulated": 150,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 290991,
+        "acc_total": 290991,
+        "accumulated": 165,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 291224,
+        "acc_total": 291224,
+        "accumulated": 180,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 291340,
+        "acc_total": 291340,
+        "accumulated": 195,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 291602,
+        "acc_total": 291602,
+        "accumulated": 210,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 291875,
+        "acc_total": 291875,
+        "accumulated": 213,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 6,
+        "wire_total": 292038,
+        "acc_total": 292038,
+        "accumulated": 219,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 292223,
+        "acc_total": 292223,
+        "accumulated": 234,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 292464,
+        "acc_total": 292464,
+        "accumulated": 249,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 292634,
+        "acc_total": 292634,
+        "accumulated": 250,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 292791,
+        "acc_total": 292791,
+        "accumulated": 265,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 293031,
+        "acc_total": 293031,
+        "accumulated": 280,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 293211,
+        "acc_total": 293211,
+        "accumulated": 295,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 293354,
+        "acc_total": 293354,
+        "accumulated": 310,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 293589,
+        "acc_total": 293589,
+        "accumulated": 325,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 293739,
+        "acc_total": 293739,
+        "accumulated": 340,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 293949,
+        "acc_total": 293949,
+        "accumulated": 355,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 294102,
+        "acc_total": 294102,
+        "accumulated": 358,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 294293,
+        "acc_total": 294293,
+        "accumulated": 373,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 294488,
+        "acc_total": 294488,
+        "accumulated": 388,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 9,
+        "wire_total": 294662,
+        "acc_total": 294662,
+        "accumulated": 397,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 294811,
+        "acc_total": 294811,
+        "accumulated": 412,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 294976,
+        "acc_total": 294976,
+        "accumulated": 427,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 295246,
+        "acc_total": 295246,
+        "accumulated": 442,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 295480,
+        "acc_total": 295480,
+        "accumulated": 457,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 295646,
+        "acc_total": 295646,
+        "accumulated": 472,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 295906,
+        "acc_total": 295906,
+        "accumulated": 487,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 296091,
+        "acc_total": 296091,
+        "accumulated": 502,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 296283,
+        "acc_total": 296283,
+        "accumulated": 517,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 296555,
+        "acc_total": 296555,
+        "accumulated": 532,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 296691,
+        "acc_total": 296691,
+        "accumulated": 547,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 296869,
+        "acc_total": 296869,
+        "accumulated": 562,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 297097,
+        "acc_total": 297097,
+        "accumulated": 577,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 297300,
+        "acc_total": 297300,
+        "accumulated": 592,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 297550,
+        "acc_total": 297550,
+        "accumulated": 607,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 297756,
+        "acc_total": 297756,
+        "accumulated": 622,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 297973,
+        "acc_total": 297973,
+        "accumulated": 637,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 298171,
+        "acc_total": 298171,
+        "accumulated": 652,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 298423,
+        "acc_total": 298423,
+        "accumulated": 667,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 298599,
+        "acc_total": 298599,
+        "accumulated": 682,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 298733,
+        "acc_total": 298733,
+        "accumulated": 697,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 298968,
+        "acc_total": 298968,
+        "accumulated": 712,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 299153,
+        "acc_total": 299153,
+        "accumulated": 727,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 299333,
+        "acc_total": 299333,
+        "accumulated": 742,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 299493,
+        "acc_total": 299493,
+        "accumulated": 757,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 299643,
+        "acc_total": 299643,
+        "accumulated": 772,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 299900,
+        "acc_total": 299900,
+        "accumulated": 787,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 300066,
+        "acc_total": 300066,
+        "accumulated": 802,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 300287,
+        "acc_total": 300287,
+        "accumulated": 817,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 300515,
+        "acc_total": 300515,
+        "accumulated": 832,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 300697,
+        "acc_total": 300697,
+        "accumulated": 847,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 300899,
+        "acc_total": 300899,
+        "accumulated": 862,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 301091,
+        "acc_total": 301091,
+        "accumulated": 877,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 301274,
+        "acc_total": 301274,
+        "accumulated": 892,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 301531,
+        "acc_total": 301531,
+        "accumulated": 907,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 301606,
+        "acc_total": 301606,
+        "accumulated": 922,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 301950,
+        "acc_total": 301950,
+        "accumulated": 937,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 302190,
+        "acc_total": 302190,
+        "accumulated": 952,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 302421,
+        "acc_total": 302421,
+        "accumulated": 955,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 5,
+        "wire_total": 302636,
+        "acc_total": 302636,
+        "accumulated": 960,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 302867,
+        "acc_total": 302867,
+        "accumulated": 975,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 303050,
+        "acc_total": 303050,
+        "accumulated": 990,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 303294,
+        "acc_total": 303294,
+        "accumulated": 993,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 303457,
+        "acc_total": 303457,
+        "accumulated": 1008,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 303689,
+        "acc_total": 303689,
+        "accumulated": 1023,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 303837,
+        "acc_total": 303837,
+        "accumulated": 1038,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 304022,
+        "acc_total": 304022,
+        "accumulated": 1053,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 304236,
+        "acc_total": 304236,
+        "accumulated": 1068,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 304375,
+        "acc_total": 304375,
+        "accumulated": 1071,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 304548,
+        "acc_total": 304548,
+        "accumulated": 1086,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 304668,
+        "acc_total": 304668,
+        "accumulated": 1101,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 304877,
+        "acc_total": 304877,
+        "accumulated": 1116,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 305068,
+        "acc_total": 305068,
+        "accumulated": 1131,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 305211,
+        "acc_total": 305211,
+        "accumulated": 1146,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 305361,
+        "acc_total": 305361,
+        "accumulated": 1161,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 305535,
+        "acc_total": 305535,
+        "accumulated": 1176,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 305695,
+        "acc_total": 305695,
+        "accumulated": 1191,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 305805,
+        "acc_total": 305805,
+        "accumulated": 1206,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 305947,
+        "acc_total": 305947,
+        "accumulated": 1221,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 306123,
+        "acc_total": 306123,
+        "accumulated": 1236,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 306272,
+        "acc_total": 306272,
+        "accumulated": 1251,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 306365,
+        "acc_total": 306365,
+        "accumulated": 1266,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 306515,
+        "acc_total": 306515,
+        "accumulated": 1281,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 306626,
+        "acc_total": 306626,
+        "accumulated": 1296,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 306734,
+        "acc_total": 306734,
+        "accumulated": 1311,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 306854,
+        "acc_total": 306854,
+        "accumulated": 1326,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 306991,
+        "acc_total": 306991,
+        "accumulated": 1341,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 307081,
+        "acc_total": 307081,
+        "accumulated": 1356,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 4,
+        "wire_total": 307241,
+        "acc_total": 307241,
+        "accumulated": 1360,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 307324,
+        "acc_total": 307324,
+        "accumulated": 1375,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 307399,
+        "acc_total": 307399,
+        "accumulated": 1390,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 307563,
+        "acc_total": 307563,
+        "accumulated": 1405,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 307593,
+        "acc_total": 307593,
+        "accumulated": 1420,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 307723,
+        "acc_total": 307723,
+        "accumulated": 1435,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 307798,
+        "acc_total": 307798,
+        "accumulated": 1450,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 307896,
+        "acc_total": 307896,
+        "accumulated": 1465,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 307971,
+        "acc_total": 307971,
+        "accumulated": 1480,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 308059,
+        "acc_total": 308059,
+        "accumulated": 1495,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 308134,
+        "acc_total": 308134,
+        "accumulated": 1510,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 308277,
+        "acc_total": 308277,
+        "accumulated": 1513,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 308367,
+        "acc_total": 308367,
+        "accumulated": 1528,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 308447,
+        "acc_total": 308447,
+        "accumulated": 1543,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 308537,
+        "acc_total": 308537,
+        "accumulated": 1558,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 8,
+        "wire_total": 308635,
+        "acc_total": 308635,
+        "accumulated": 1566,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 308686,
+        "acc_total": 308686,
+        "accumulated": 1581,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 308776,
+        "acc_total": 308776,
+        "accumulated": 1596,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 308851,
+        "acc_total": 308851,
+        "accumulated": 1611,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 5,
+        "wire_total": 308944,
+        "acc_total": 308944,
+        "accumulated": 1616,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 309049,
+        "acc_total": 309049,
+        "accumulated": 1631,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 309118,
+        "acc_total": 309118,
+        "accumulated": 1646,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 309190,
+        "acc_total": 309190,
+        "accumulated": 1649,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 309327,
+        "acc_total": 309327,
+        "accumulated": 1664,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 309433,
+        "acc_total": 309433,
+        "accumulated": 1679,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 309579,
+        "acc_total": 309579,
+        "accumulated": 1694,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 10,
+        "wire_total": 309679,
+        "acc_total": 309679,
+        "accumulated": 1704,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 309835,
+        "acc_total": 309835,
+        "accumulated": 1719,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 309940,
+        "acc_total": 309940,
+        "accumulated": 1734,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 12,
+        "wire_total": 310068,
+        "acc_total": 310068,
+        "accumulated": 1746,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 310182,
+        "acc_total": 310182,
+        "accumulated": 1761,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 310333,
+        "acc_total": 310333,
+        "accumulated": 1776,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 310438,
+        "acc_total": 310438,
+        "accumulated": 1791,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 310616,
+        "acc_total": 310616,
+        "accumulated": 1806,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 310732,
+        "acc_total": 310732,
+        "accumulated": 1821,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 310920,
+        "acc_total": 310920,
+        "accumulated": 1836,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 311048,
+        "acc_total": 311048,
+        "accumulated": 1851,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 311197,
+        "acc_total": 311197,
+        "accumulated": 1866,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 311317,
+        "acc_total": 311317,
+        "accumulated": 1881,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 311437,
+        "acc_total": 311437,
+        "accumulated": 1896,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 311582,
+        "acc_total": 311582,
+        "accumulated": 1911,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 311765,
+        "acc_total": 311765,
+        "accumulated": 1926,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 311915,
+        "acc_total": 311915,
+        "accumulated": 1941,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 312087,
+        "acc_total": 312087,
+        "accumulated": 1956,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 312252,
+        "acc_total": 312252,
+        "accumulated": 1971,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 312402,
+        "acc_total": 312402,
+        "accumulated": 1986,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 13,
+        "wire_total": 312528,
+        "acc_total": 312528,
+        "accumulated": 1999,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 312734,
+        "acc_total": 312734,
+        "accumulated": 2014,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 312914,
+        "acc_total": 312914,
+        "accumulated": 2029,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 313049,
+        "acc_total": 313049,
+        "accumulated": 2044,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 313229,
+        "acc_total": 313229,
+        "accumulated": 2059,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 313442,
+        "acc_total": 313442,
+        "accumulated": 2074,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 313547,
+        "acc_total": 313547,
+        "accumulated": 2089,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 313760,
+        "acc_total": 313760,
+        "accumulated": 2104,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 313895,
+        "acc_total": 313895,
+        "accumulated": 2119,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 314076,
+        "acc_total": 314076,
+        "accumulated": 2134,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 314228,
+        "acc_total": 314228,
+        "accumulated": 2149,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 314493,
+        "acc_total": 314493,
+        "accumulated": 2164,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 314696,
+        "acc_total": 314696,
+        "accumulated": 2179,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 314831,
+        "acc_total": 314831,
+        "accumulated": 2194,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 315041,
+        "acc_total": 315041,
+        "accumulated": 2209,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 315221,
+        "acc_total": 315221,
+        "accumulated": 2224,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 315316,
+        "acc_total": 315316,
+        "accumulated": 2239,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 315477,
+        "acc_total": 315477,
+        "accumulated": 2240,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 315570,
+        "acc_total": 315570,
+        "accumulated": 2255,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 8,
+        "wire_total": 315742,
+        "acc_total": 315742,
+        "accumulated": 2263,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 315890,
+        "acc_total": 315890,
+        "accumulated": 2278,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 6,
+        "wire_total": 315973,
+        "acc_total": 315973,
+        "accumulated": 2284,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 316151,
+        "acc_total": 316151,
+        "accumulated": 2299,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 316278,
+        "acc_total": 316278,
+        "accumulated": 2314,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 2,
+        "wire_total": 316385,
+        "acc_total": 316385,
+        "accumulated": 2316,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 316505,
+        "acc_total": 316505,
+        "accumulated": 2331,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 316665,
+        "acc_total": 316665,
+        "accumulated": 2346,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 316823,
+        "acc_total": 316823,
+        "accumulated": 2361,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 316975,
+        "acc_total": 316975,
+        "accumulated": 2376,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 317101,
+        "acc_total": 317101,
+        "accumulated": 2377,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 317199,
+        "acc_total": 317199,
+        "accumulated": 2378,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 317407,
+        "acc_total": 317407,
+        "accumulated": 2393,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 317447,
+        "acc_total": 317447,
+        "accumulated": 2408,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 317581,
+        "acc_total": 317581,
+        "accumulated": 2423,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 317697,
+        "acc_total": 317697,
+        "accumulated": 2438,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 317782,
+        "acc_total": 317782,
+        "accumulated": 2453,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 317884,
+        "acc_total": 317884,
+        "accumulated": 2468,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 317964,
+        "acc_total": 317964,
+        "accumulated": 2483,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 318129,
+        "acc_total": 318129,
+        "accumulated": 2498,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 318279,
+        "acc_total": 318279,
+        "accumulated": 2513,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 318447,
+        "acc_total": 318447,
+        "accumulated": 2528,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 318537,
+        "acc_total": 318537,
+        "accumulated": 2543,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 318722,
+        "acc_total": 318722,
+        "accumulated": 2558,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 318792,
+        "acc_total": 318792,
+        "accumulated": 2573,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 13,
+        "wire_total": 318968,
+        "acc_total": 318968,
+        "accumulated": 2586,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 319075,
+        "acc_total": 319075,
+        "accumulated": 2601,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 319229,
+        "acc_total": 319229,
+        "accumulated": 2616,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 319394,
+        "acc_total": 319394,
+        "accumulated": 2631,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 319495,
+        "acc_total": 319495,
+        "accumulated": 2646,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 319640,
+        "acc_total": 319640,
+        "accumulated": 2661,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 319761,
+        "acc_total": 319761,
+        "accumulated": 2676,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 319941,
+        "acc_total": 319941,
+        "accumulated": 2691,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 320102,
+        "acc_total": 320102,
+        "accumulated": 2706,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 320222,
+        "acc_total": 320222,
+        "accumulated": 2721,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 320398,
+        "acc_total": 320398,
+        "accumulated": 2736,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 320540,
+        "acc_total": 320540,
+        "accumulated": 2751,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 8,
+        "wire_total": 320642,
+        "acc_total": 320642,
+        "accumulated": 2759,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 320757,
+        "acc_total": 320757,
+        "accumulated": 2774,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 320866,
+        "acc_total": 320866,
+        "accumulated": 2789,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 320986,
+        "acc_total": 320986,
+        "accumulated": 2804,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 321166,
+        "acc_total": 321166,
+        "accumulated": 2819,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 321362,
+        "acc_total": 321362,
+        "accumulated": 2834,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 321601,
+        "acc_total": 321601,
+        "accumulated": 2849,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 321772,
+        "acc_total": 321772,
+        "accumulated": 2850,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 321967,
+        "acc_total": 321967,
+        "accumulated": 2865,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 322259,
+        "acc_total": 322259,
+        "accumulated": 2880,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 322425,
+        "acc_total": 322425,
+        "accumulated": 2895,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 322590,
+        "acc_total": 322590,
+        "accumulated": 2910,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 322895,
+        "acc_total": 322895,
+        "accumulated": 2925,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 323077,
+        "acc_total": 323077,
+        "accumulated": 2940,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 323272,
+        "acc_total": 323272,
+        "accumulated": 2955,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 323470,
+        "acc_total": 323470,
+        "accumulated": 2970,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 323689,
+        "acc_total": 323689,
+        "accumulated": 2985,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 323900,
+        "acc_total": 323900,
+        "accumulated": 3000,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 324050,
+        "acc_total": 324050,
+        "accumulated": 3015,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 324308,
+        "acc_total": 324308,
+        "accumulated": 3030,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 324511,
+        "acc_total": 324511,
+        "accumulated": 3045,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 324683,
+        "acc_total": 324683,
+        "accumulated": 3060,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 324848,
+        "acc_total": 324848,
+        "accumulated": 3075,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 325103,
+        "acc_total": 325103,
+        "accumulated": 3090,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 325241,
+        "acc_total": 325241,
+        "accumulated": 3105,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 325457,
+        "acc_total": 325457,
+        "accumulated": 3120,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 325652,
+        "acc_total": 325652,
+        "accumulated": 3135,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 325807,
+        "acc_total": 325807,
+        "accumulated": 3150,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 325947,
+        "acc_total": 325947,
+        "accumulated": 3165,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 326225,
+        "acc_total": 326225,
+        "accumulated": 3180,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 326327,
+        "acc_total": 326327,
+        "accumulated": 3195,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 326462,
+        "acc_total": 326462,
+        "accumulated": 3210,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 326684,
+        "acc_total": 326684,
+        "accumulated": 3225,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 326852,
+        "acc_total": 326852,
+        "accumulated": 3240,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 327023,
+        "acc_total": 327023,
+        "accumulated": 3255,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 327160,
+        "acc_total": 327160,
+        "accumulated": 3270,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 327344,
+        "acc_total": 327344,
+        "accumulated": 3285,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 327528,
+        "acc_total": 327528,
+        "accumulated": 3300,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 327708,
+        "acc_total": 327708,
+        "accumulated": 3315,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 327848,
+        "acc_total": 327848,
+        "accumulated": 3330,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 328058,
+        "acc_total": 328058,
+        "accumulated": 3345,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 328250,
+        "acc_total": 328250,
+        "accumulated": 3360,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 328407,
+        "acc_total": 328407,
+        "accumulated": 3375,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 328603,
+        "acc_total": 328603,
+        "accumulated": 3390,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 328819,
+        "acc_total": 328819,
+        "accumulated": 3405,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 329046,
+        "acc_total": 329046,
+        "accumulated": 3420,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 329210,
+        "acc_total": 329210,
+        "accumulated": 3435,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 10,
+        "wire_total": 329430,
+        "acc_total": 329430,
+        "accumulated": 3445,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 329613,
+        "acc_total": 329613,
+        "accumulated": 3460,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 329748,
+        "acc_total": 329748,
+        "accumulated": 3475,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 330129,
+        "acc_total": 330129,
+        "accumulated": 3490,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 330279,
+        "acc_total": 330279,
+        "accumulated": 3505,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 330444,
+        "acc_total": 330444,
+        "accumulated": 3520,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 330771,
+        "acc_total": 330771,
+        "accumulated": 3535,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 330891,
+        "acc_total": 330891,
+        "accumulated": 3550,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 331054,
+        "acc_total": 331054,
+        "accumulated": 3565,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 331320,
+        "acc_total": 331320,
+        "accumulated": 3580,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 8,
+        "wire_total": 331543,
+        "acc_total": 331543,
+        "accumulated": 3588,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 331779,
+        "acc_total": 331779,
+        "accumulated": 3603,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 331906,
+        "acc_total": 331906,
+        "accumulated": 3604,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 332084,
+        "acc_total": 332084,
+        "accumulated": 3619,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 332279,
+        "acc_total": 332279,
+        "accumulated": 3634,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 332417,
+        "acc_total": 332417,
+        "accumulated": 3649,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 332624,
+        "acc_total": 332624,
+        "accumulated": 3664,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 332809,
+        "acc_total": 332809,
+        "accumulated": 3679,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 333034,
+        "acc_total": 333034,
+        "accumulated": 3694,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 333263,
+        "acc_total": 333263,
+        "accumulated": 3709,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 4,
+        "wire_total": 333432,
+        "acc_total": 333432,
+        "accumulated": 3713,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 333632,
+        "acc_total": 333632,
+        "accumulated": 3728,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 333859,
+        "acc_total": 333859,
+        "accumulated": 3743,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 334061,
+        "acc_total": 334061,
+        "accumulated": 3758,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 334211,
+        "acc_total": 334211,
+        "accumulated": 3773,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 334460,
+        "acc_total": 334460,
+        "accumulated": 3788,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 334662,
+        "acc_total": 334662,
+        "accumulated": 3803,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 334902,
+        "acc_total": 334902,
+        "accumulated": 3818,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 335083,
+        "acc_total": 335083,
+        "accumulated": 3833,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 335231,
+        "acc_total": 335231,
+        "accumulated": 3848,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 335450,
+        "acc_total": 335450,
+        "accumulated": 3863,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 335612,
+        "acc_total": 335612,
+        "accumulated": 3878,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 335756,
+        "acc_total": 335756,
+        "accumulated": 3893,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 6,
+        "wire_total": 335898,
+        "acc_total": 335898,
+        "accumulated": 3899,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 336033,
+        "acc_total": 336033,
+        "accumulated": 3914,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 336183,
+        "acc_total": 336183,
+        "accumulated": 3929,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 336384,
+        "acc_total": 336384,
+        "accumulated": 3944,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 336399,
+        "acc_total": 336399,
+        "accumulated": 3959,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 13,
+        "wire_total": 336614,
+        "acc_total": 336614,
+        "accumulated": 3972,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 2,
+        "wire_total": 336718,
+        "acc_total": 336718,
+        "accumulated": 3974,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 336860,
+        "acc_total": 336860,
+        "accumulated": 3989,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 337002,
+        "acc_total": 337002,
+        "accumulated": 4004,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 337108,
+        "acc_total": 337108,
+        "accumulated": 4019,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 11,
+        "wire_total": 337212,
+        "acc_total": 337212,
+        "accumulated": 4030,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 4,
+        "wire_total": 337425,
+        "acc_total": 337425,
+        "accumulated": 4034,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 337596,
+        "acc_total": 337596,
+        "accumulated": 4049,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 337707,
+        "acc_total": 337707,
+        "accumulated": 4064,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 6,
+        "wire_total": 337866,
+        "acc_total": 337866,
+        "accumulated": 4070,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 338016,
+        "acc_total": 338016,
+        "accumulated": 4085,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 338267,
+        "acc_total": 338267,
+        "accumulated": 4100,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 338423,
+        "acc_total": 338423,
+        "accumulated": 4115,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 338588,
+        "acc_total": 338588,
+        "accumulated": 4130,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 338753,
+        "acc_total": 338753,
+        "accumulated": 4145,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 338937,
+        "acc_total": 338937,
+        "accumulated": 4160,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 339131,
+        "acc_total": 339131,
+        "accumulated": 4175,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 339343,
+        "acc_total": 339343,
+        "accumulated": 4190,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 339503,
+        "acc_total": 339503,
+        "accumulated": 4205,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 339771,
+        "acc_total": 339771,
+        "accumulated": 4220,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 339962,
+        "acc_total": 339962,
+        "accumulated": 4235,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 8,
+        "wire_total": 340135,
+        "acc_total": 340135,
+        "accumulated": 4243,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 340324,
+        "acc_total": 340324,
+        "accumulated": 4258,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 340644,
+        "acc_total": 340644,
+        "accumulated": 4273,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 340719,
+        "acc_total": 340719,
+        "accumulated": 4288,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 341038,
+        "acc_total": 341038,
+        "accumulated": 4303,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 341231,
+        "acc_total": 341231,
+        "accumulated": 4318,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 341451,
+        "acc_total": 341451,
+        "accumulated": 4333,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 2,
+        "wire_total": 341633,
+        "acc_total": 341633,
+        "accumulated": 4335,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 341902,
+        "acc_total": 341902,
+        "accumulated": 4350,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 342112,
+        "acc_total": 342112,
+        "accumulated": 4365,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 342307,
+        "acc_total": 342307,
+        "accumulated": 4380,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 342520,
+        "acc_total": 342520,
+        "accumulated": 4395,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 342752,
+        "acc_total": 342752,
+        "accumulated": 4410,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 342967,
+        "acc_total": 342967,
+        "accumulated": 4425,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 343159,
+        "acc_total": 343159,
+        "accumulated": 4440,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 343307,
+        "acc_total": 343307,
+        "accumulated": 4455,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 343472,
+        "acc_total": 343472,
+        "accumulated": 4470,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 343697,
+        "acc_total": 343697,
+        "accumulated": 4485,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 343928,
+        "acc_total": 343928,
+        "accumulated": 4500,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 344078,
+        "acc_total": 344078,
+        "accumulated": 4515,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 344312,
+        "acc_total": 344312,
+        "accumulated": 4530,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 344490,
+        "acc_total": 344490,
+        "accumulated": 4545,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 344708,
+        "acc_total": 344708,
+        "accumulated": 4560,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 344856,
+        "acc_total": 344856,
+        "accumulated": 4575,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 8,
+        "wire_total": 345059,
+        "acc_total": 345059,
+        "accumulated": 4583,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 345180,
+        "acc_total": 345180,
+        "accumulated": 4598,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 345321,
+        "acc_total": 345321,
+        "accumulated": 4613,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 345428,
+        "acc_total": 345428,
+        "accumulated": 4628,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 345566,
+        "acc_total": 345566,
+        "accumulated": 4631,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 345702,
+        "acc_total": 345702,
+        "accumulated": 4646,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 345818,
+        "acc_total": 345818,
+        "accumulated": 4661,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 345940,
+        "acc_total": 345940,
+        "accumulated": 4676,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 346085,
+        "acc_total": 346085,
+        "accumulated": 4691,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 346224,
+        "acc_total": 346224,
+        "accumulated": 4706,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 346317,
+        "acc_total": 346317,
+        "accumulated": 4721,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 346542,
+        "acc_total": 346542,
+        "accumulated": 4736,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 346615,
+        "acc_total": 346615,
+        "accumulated": 4739,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 346735,
+        "acc_total": 346735,
+        "accumulated": 4754,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 346900,
+        "acc_total": 346900,
+        "accumulated": 4769,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 347061,
+        "acc_total": 347061,
+        "accumulated": 4784,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 347181,
+        "acc_total": 347181,
+        "accumulated": 4799,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 347321,
+        "acc_total": 347321,
+        "accumulated": 4814,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 347498,
+        "acc_total": 347498,
+        "accumulated": 4829,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 347552,
+        "acc_total": 347552,
+        "accumulated": 4844,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 347693,
+        "acc_total": 347693,
+        "accumulated": 4859,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 347753,
+        "acc_total": 347753,
+        "accumulated": 4874,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 4,
+        "wire_total": 347901,
+        "acc_total": 347901,
+        "accumulated": 4878,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 348052,
+        "acc_total": 348052,
+        "accumulated": 4893,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 348127,
+        "acc_total": 348127,
+        "accumulated": 4908,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 348262,
+        "acc_total": 348262,
+        "accumulated": 4923,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 348424,
+        "acc_total": 348424,
+        "accumulated": 4938,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 348609,
+        "acc_total": 348609,
+        "accumulated": 4953,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 2,
+        "wire_total": 348731,
+        "acc_total": 348731,
+        "accumulated": 4955,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 348892,
+        "acc_total": 348892,
+        "accumulated": 4970,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 349064,
+        "acc_total": 349064,
+        "accumulated": 4985,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 349214,
+        "acc_total": 349214,
+        "accumulated": 5000,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 349358,
+        "acc_total": 349358,
+        "accumulated": 5015,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 349493,
+        "acc_total": 349493,
+        "accumulated": 5030,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 349697,
+        "acc_total": 349697,
+        "accumulated": 5045,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 349896,
+        "acc_total": 349896,
+        "accumulated": 5060,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 350003,
+        "acc_total": 350003,
+        "accumulated": 5075,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 350168,
+        "acc_total": 350168,
+        "accumulated": 5090,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 350314,
+        "acc_total": 350314,
+        "accumulated": 5105,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 350501,
+        "acc_total": 350501,
+        "accumulated": 5120,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 350703,
+        "acc_total": 350703,
+        "accumulated": 5135,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 350808,
+        "acc_total": 350808,
+        "accumulated": 5150,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 351018,
+        "acc_total": 351018,
+        "accumulated": 5165,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 351161,
+        "acc_total": 351161,
+        "accumulated": 5180,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 351308,
+        "acc_total": 351308,
+        "accumulated": 5195,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 351503,
+        "acc_total": 351503,
+        "accumulated": 5210,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 351694,
+        "acc_total": 351694,
+        "accumulated": 5225,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 351823,
+        "acc_total": 351823,
+        "accumulated": 5240,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 7,
+        "wire_total": 351965,
+        "acc_total": 351965,
+        "accumulated": 5247,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 352223,
+        "acc_total": 352223,
+        "accumulated": 5250,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 352346,
+        "acc_total": 352346,
+        "accumulated": 5265,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 352526,
+        "acc_total": 352526,
+        "accumulated": 5280,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 352692,
+        "acc_total": 352692,
+        "accumulated": 5295,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 352873,
+        "acc_total": 352873,
+        "accumulated": 5310,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 353017,
+        "acc_total": 353017,
+        "accumulated": 5325,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 353203,
+        "acc_total": 353203,
+        "accumulated": 5340,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 353374,
+        "acc_total": 353374,
+        "accumulated": 5355,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 353618,
+        "acc_total": 353618,
+        "accumulated": 5370,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 353806,
+        "acc_total": 353806,
+        "accumulated": 5385,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 4,
+        "wire_total": 353931,
+        "acc_total": 353931,
+        "accumulated": 5389,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 354141,
+        "acc_total": 354141,
+        "accumulated": 5404,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 354329,
+        "acc_total": 354329,
+        "accumulated": 5419,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 354539,
+        "acc_total": 354539,
+        "accumulated": 5434,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 354949,
+        "acc_total": 354949,
+        "accumulated": 5449,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 355230,
+        "acc_total": 355230,
+        "accumulated": 5464,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 355450,
+        "acc_total": 355450,
+        "accumulated": 5479,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 355690,
+        "acc_total": 355690,
+        "accumulated": 5494,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 355905,
+        "acc_total": 355905,
+        "accumulated": 5509,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 356173,
+        "acc_total": 356173,
+        "accumulated": 5524,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 356428,
+        "acc_total": 356428,
+        "accumulated": 5539,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 356683,
+        "acc_total": 356683,
+        "accumulated": 5554,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 356859,
+        "acc_total": 356859,
+        "accumulated": 5569,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 357042,
+        "acc_total": 357042,
+        "accumulated": 5584,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 357220,
+        "acc_total": 357220,
+        "accumulated": 5585,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 357431,
+        "acc_total": 357431,
+        "accumulated": 5600,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 4,
+        "wire_total": 357578,
+        "acc_total": 357578,
+        "accumulated": 5604,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 357593,
+        "acc_total": 357593,
+        "accumulated": 5619,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 357842,
+        "acc_total": 357842,
+        "accumulated": 5634,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 357994,
+        "acc_total": 357994,
+        "accumulated": 5649,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 358154,
+        "acc_total": 358154,
+        "accumulated": 5664,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 358382,
+        "acc_total": 358382,
+        "accumulated": 5679,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 358561,
+        "acc_total": 358561,
+        "accumulated": 5694,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 358717,
+        "acc_total": 358717,
+        "accumulated": 5709,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 358937,
+        "acc_total": 358937,
+        "accumulated": 5724,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 10,
+        "wire_total": 359160,
+        "acc_total": 359160,
+        "accumulated": 5734,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 359354,
+        "acc_total": 359354,
+        "accumulated": 5749,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 359627,
+        "acc_total": 359627,
+        "accumulated": 5764,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 359814,
+        "acc_total": 359814,
+        "accumulated": 5779,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 359995,
+        "acc_total": 359995,
+        "accumulated": 5794,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 360187,
+        "acc_total": 360187,
+        "accumulated": 5809,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 360423,
+        "acc_total": 360423,
+        "accumulated": 5824,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 360630,
+        "acc_total": 360630,
+        "accumulated": 5839,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 360810,
+        "acc_total": 360810,
+        "accumulated": 5854,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 361083,
+        "acc_total": 361083,
+        "accumulated": 5869,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 361251,
+        "acc_total": 361251,
+        "accumulated": 5884,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 361418,
+        "acc_total": 361418,
+        "accumulated": 5899,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 361574,
+        "acc_total": 361574,
+        "accumulated": 5914,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 361810,
+        "acc_total": 361810,
+        "accumulated": 5929,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 362030,
+        "acc_total": 362030,
+        "accumulated": 5944,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 362179,
+        "acc_total": 362179,
+        "accumulated": 5959,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 362374,
+        "acc_total": 362374,
+        "accumulated": 5974,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 362529,
+        "acc_total": 362529,
+        "accumulated": 5989,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 362744,
+        "acc_total": 362744,
+        "accumulated": 6004,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 362876,
+        "acc_total": 362876,
+        "accumulated": 6019,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 363101,
+        "acc_total": 363101,
+        "accumulated": 6034,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 363255,
+        "acc_total": 363255,
+        "accumulated": 6049,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 363413,
+        "acc_total": 363413,
+        "accumulated": 6064,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 13,
+        "wire_total": 363641,
+        "acc_total": 363641,
+        "accumulated": 6077,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 363775,
+        "acc_total": 363775,
+        "accumulated": 6092,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 363899,
+        "acc_total": 363899,
+        "accumulated": 6107,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 364121,
+        "acc_total": 364121,
+        "accumulated": 6122,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 364253,
+        "acc_total": 364253,
+        "accumulated": 6137,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 364418,
+        "acc_total": 364418,
+        "accumulated": 6152,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 364562,
+        "acc_total": 364562,
+        "accumulated": 6167,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 364725,
+        "acc_total": 364725,
+        "accumulated": 6182,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 364861,
+        "acc_total": 364861,
+        "accumulated": 6197,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 365038,
+        "acc_total": 365038,
+        "accumulated": 6212,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 365135,
+        "acc_total": 365135,
+        "accumulated": 6227,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 365306,
+        "acc_total": 365306,
+        "accumulated": 6242,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 365426,
+        "acc_total": 365426,
+        "accumulated": 6257,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 365572,
+        "acc_total": 365572,
+        "accumulated": 6272,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 365752,
+        "acc_total": 365752,
+        "accumulated": 6287,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 365894,
+        "acc_total": 365894,
+        "accumulated": 6302,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 366057,
+        "acc_total": 366057,
+        "accumulated": 6303,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 366193,
+        "acc_total": 366193,
+        "accumulated": 6318,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 366413,
+        "acc_total": 366413,
+        "accumulated": 6333,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 366503,
+        "acc_total": 366503,
+        "accumulated": 6348,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 366749,
+        "acc_total": 366749,
+        "accumulated": 6363,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 366913,
+        "acc_total": 366913,
+        "accumulated": 6378,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 11,
+        "wire_total": 367089,
+        "acc_total": 367089,
+        "accumulated": 6389,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 367292,
+        "acc_total": 367292,
+        "accumulated": 6404,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 367498,
+        "acc_total": 367498,
+        "accumulated": 6419,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 367618,
+        "acc_total": 367618,
+        "accumulated": 6434,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 367805,
+        "acc_total": 367805,
+        "accumulated": 6449,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 367880,
+        "acc_total": 367880,
+        "accumulated": 6464,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 368016,
+        "acc_total": 368016,
+        "accumulated": 6479,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 368124,
+        "acc_total": 368124,
+        "accumulated": 6494,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 368246,
+        "acc_total": 368246,
+        "accumulated": 6509,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 368426,
+        "acc_total": 368426,
+        "accumulated": 6524,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 368516,
+        "acc_total": 368516,
+        "accumulated": 6539,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 368724,
+        "acc_total": 368724,
+        "accumulated": 6554,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 368823,
+        "acc_total": 368823,
+        "accumulated": 6569,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 368958,
+        "acc_total": 368958,
+        "accumulated": 6584,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 369130,
+        "acc_total": 369130,
+        "accumulated": 6599,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 14,
+        "wire_total": 369264,
+        "acc_total": 369264,
+        "accumulated": 6613,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 369414,
+        "acc_total": 369414,
+        "accumulated": 6628,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 369593,
+        "acc_total": 369593,
+        "accumulated": 6643,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 369751,
+        "acc_total": 369751,
+        "accumulated": 6658,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 369871,
+        "acc_total": 369871,
+        "accumulated": 6673,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 370036,
+        "acc_total": 370036,
+        "accumulated": 6688,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 370156,
+        "acc_total": 370156,
+        "accumulated": 6703,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 370415,
+        "acc_total": 370415,
+        "accumulated": 6718,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 370610,
+        "acc_total": 370610,
+        "accumulated": 6733,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 5,
+        "wire_total": 370810,
+        "acc_total": 370810,
+        "accumulated": 6738,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 371031,
+        "acc_total": 371031,
+        "accumulated": 6753,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 371196,
+        "acc_total": 371196,
+        "accumulated": 6768,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 371405,
+        "acc_total": 371405,
+        "accumulated": 6783,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 371600,
+        "acc_total": 371600,
+        "accumulated": 6798,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 371850,
+        "acc_total": 371850,
+        "accumulated": 6813,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 371984,
+        "acc_total": 371984,
+        "accumulated": 6828,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 372152,
+        "acc_total": 372152,
+        "accumulated": 6843,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 372332,
+        "acc_total": 372332,
+        "accumulated": 6858,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 372504,
+        "acc_total": 372504,
+        "accumulated": 6873,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 372695,
+        "acc_total": 372695,
+        "accumulated": 6888,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 372980,
+        "acc_total": 372980,
+        "accumulated": 6903,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 373157,
+        "acc_total": 373157,
+        "accumulated": 6918,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 373337,
+        "acc_total": 373337,
+        "accumulated": 6933,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 373561,
+        "acc_total": 373561,
+        "accumulated": 6948,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 373795,
+        "acc_total": 373795,
+        "accumulated": 6963,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 373900,
+        "acc_total": 373900,
+        "accumulated": 6978,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 12,
+        "wire_total": 374110,
+        "acc_total": 374110,
+        "accumulated": 6990,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 4,
+        "wire_total": 374280,
+        "acc_total": 374280,
+        "accumulated": 6994,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 374424,
+        "acc_total": 374424,
+        "accumulated": 7009,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 374642,
+        "acc_total": 374642,
+        "accumulated": 7024,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 374787,
+        "acc_total": 374787,
+        "accumulated": 7039,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 374958,
+        "acc_total": 374958,
+        "accumulated": 7054,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 375108,
+        "acc_total": 375108,
+        "accumulated": 7069,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 375318,
+        "acc_total": 375318,
+        "accumulated": 7084,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 375516,
+        "acc_total": 375516,
+        "accumulated": 7099,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 375621,
+        "acc_total": 375621,
+        "accumulated": 7114,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 375812,
+        "acc_total": 375812,
+        "accumulated": 7129,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 376023,
+        "acc_total": 376023,
+        "accumulated": 7144,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 376208,
+        "acc_total": 376208,
+        "accumulated": 7159,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 376388,
+        "acc_total": 376388,
+        "accumulated": 7174,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 376537,
+        "acc_total": 376537,
+        "accumulated": 7175,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 376690,
+        "acc_total": 376690,
+        "accumulated": 7190,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 376910,
+        "acc_total": 376910,
+        "accumulated": 7205,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 377057,
+        "acc_total": 377057,
+        "accumulated": 7220,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 377226,
+        "acc_total": 377226,
+        "accumulated": 7235,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 377464,
+        "acc_total": 377464,
+        "accumulated": 7250,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 377653,
+        "acc_total": 377653,
+        "accumulated": 7265,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 11,
+        "wire_total": 377800,
+        "acc_total": 377800,
+        "accumulated": 7276,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 377877,
+        "acc_total": 377877,
+        "accumulated": 7291,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 378063,
+        "acc_total": 378063,
+        "accumulated": 7306,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 9,
+        "wire_total": 378151,
+        "acc_total": 378151,
+        "accumulated": 7315,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 378245,
+        "acc_total": 378245,
+        "accumulated": 7330,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 378414,
+        "acc_total": 378414,
+        "accumulated": 7345,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 378533,
+        "acc_total": 378533,
+        "accumulated": 7360,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 378642,
+        "acc_total": 378642,
+        "accumulated": 7375,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 378810,
+        "acc_total": 378810,
+        "accumulated": 7390,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 378955,
+        "acc_total": 378955,
+        "accumulated": 7405,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 379045,
+        "acc_total": 379045,
+        "accumulated": 7420,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 379214,
+        "acc_total": 379214,
+        "accumulated": 7435,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 379349,
+        "acc_total": 379349,
+        "accumulated": 7450,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 379506,
+        "acc_total": 379506,
+        "accumulated": 7465,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 379656,
+        "acc_total": 379656,
+        "accumulated": 7480,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 379797,
+        "acc_total": 379797,
+        "accumulated": 7483,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 380023,
+        "acc_total": 380023,
+        "accumulated": 7498,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 380143,
+        "acc_total": 380143,
+        "accumulated": 7513,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 380359,
+        "acc_total": 380359,
+        "accumulated": 7528,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 380623,
+        "acc_total": 380623,
+        "accumulated": 7543,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 380793,
+        "acc_total": 380793,
+        "accumulated": 7558,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 381019,
+        "acc_total": 381019,
+        "accumulated": 7573,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 381328,
+        "acc_total": 381328,
+        "accumulated": 7588,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 381526,
+        "acc_total": 381526,
+        "accumulated": 7603,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 381853,
+        "acc_total": 381853,
+        "accumulated": 7618,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 11,
+        "wire_total": 382109,
+        "acc_total": 382109,
+        "accumulated": 7629,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 382394,
+        "acc_total": 382394,
+        "accumulated": 7644,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 3,
+        "wire_total": 382707,
+        "acc_total": 382707,
+        "accumulated": 7647,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 382956,
+        "acc_total": 382956,
+        "accumulated": 7662,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 383272,
+        "acc_total": 383272,
+        "accumulated": 7677,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 383676,
+        "acc_total": 383676,
+        "accumulated": 7692,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 383971,
+        "acc_total": 383971,
+        "accumulated": 7707,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 384239,
+        "acc_total": 384239,
+        "accumulated": 7722,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 384606,
+        "acc_total": 384606,
+        "accumulated": 7737,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 384849,
+        "acc_total": 384849,
+        "accumulated": 7752,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 385119,
+        "acc_total": 385119,
+        "accumulated": 7767,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 385482,
+        "acc_total": 385482,
+        "accumulated": 7782,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 385782,
+        "acc_total": 385782,
+        "accumulated": 7797,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 386066,
+        "acc_total": 386066,
+        "accumulated": 7812,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 386394,
+        "acc_total": 386394,
+        "accumulated": 7827,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 386693,
+        "acc_total": 386693,
+        "accumulated": 7842,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 386997,
+        "acc_total": 386997,
+        "accumulated": 7857,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 387192,
+        "acc_total": 387192,
+        "accumulated": 7872,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 387508,
+        "acc_total": 387508,
+        "accumulated": 7887,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 387733,
+        "acc_total": 387733,
+        "accumulated": 7902,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 387967,
+        "acc_total": 387967,
+        "accumulated": 7917,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 388251,
+        "acc_total": 388251,
+        "accumulated": 7932,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 388530,
+        "acc_total": 388530,
+        "accumulated": 7947,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 388740,
+        "acc_total": 388740,
+        "accumulated": 7962,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 388995,
+        "acc_total": 388995,
+        "accumulated": 7977,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 389245,
+        "acc_total": 389245,
+        "accumulated": 7992,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 389382,
+        "acc_total": 389382,
+        "accumulated": 8007,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 389607,
+        "acc_total": 389607,
+        "accumulated": 8022,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 2,
+        "wire_total": 389800,
+        "acc_total": 389800,
+        "accumulated": 8024,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 389963,
+        "acc_total": 389963,
+        "accumulated": 8039,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 4,
+        "wire_total": 390161,
+        "acc_total": 390161,
+        "accumulated": 8043,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 2,
+        "wire_total": 390345,
+        "acc_total": 390345,
+        "accumulated": 8045,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 1,
+        "wire_total": 390496,
+        "acc_total": 390496,
+        "accumulated": 8046,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 390768,
+        "acc_total": 390768,
+        "accumulated": 8061,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 390996,
+        "acc_total": 390996,
+        "accumulated": 8076,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 391176,
+        "acc_total": 391176,
+        "accumulated": 8091,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 391431,
+        "acc_total": 391431,
+        "accumulated": 8106,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 391645,
+        "acc_total": 391645,
+        "accumulated": 8121,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 391808,
+        "acc_total": 391808,
+        "accumulated": 8136,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 392050,
+        "acc_total": 392050,
+        "accumulated": 8151,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 392300,
+        "acc_total": 392300,
+        "accumulated": 8166,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 392510,
+        "acc_total": 392510,
+        "accumulated": 8181,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 392681,
+        "acc_total": 392681,
+        "accumulated": 8196,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 392858,
+        "acc_total": 392858,
+        "accumulated": 8211,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 393135,
+        "acc_total": 393135,
+        "accumulated": 8226,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 393300,
+        "acc_total": 393300,
+        "accumulated": 8241,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 393421,
+        "acc_total": 393421,
+        "accumulated": 8256,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 393700,
+        "acc_total": 393700,
+        "accumulated": 8271,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 393901,
+        "acc_total": 393901,
+        "accumulated": 8286,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 394072,
+        "acc_total": 394072,
+        "accumulated": 8301,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 394254,
+        "acc_total": 394254,
+        "accumulated": 8316,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 394464,
+        "acc_total": 394464,
+        "accumulated": 8331,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 394771,
+        "acc_total": 394771,
+        "accumulated": 8346,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 394897,
+        "acc_total": 394897,
+        "accumulated": 8361,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 395105,
+        "acc_total": 395105,
+        "accumulated": 8376,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 395359,
+        "acc_total": 395359,
+        "accumulated": 8391,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 395595,
+        "acc_total": 395595,
+        "accumulated": 8406,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 395854,
+        "acc_total": 395854,
+        "accumulated": 8421,
+        "went_backwards": false
+      },
+      {
+        "wire_count": 15,
+        "wire_total": 396066,
+        "acc_total": 396066,
+        "accumulated": 8436,
+        "went_backwards": false
+      }
+    ]
+  },
+  "gift_streaks": {
+    "event_count": 24,
+    "combo_count": 22,
+    "non_combo_count": 2,
+    "streak_finals": 12,
+    "negative_deltas": 0,
+    "groups": {
+      "0": [
+        {
+          "gift_id": 7934,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": true,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 7934,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": true,
+          "diamond_total": 1
+        }
+      ],
+      "1775541550771": [
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 5655,
+          "repeat_count": 2,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 2
+        },
+        {
+          "gift_id": 5655,
+          "repeat_count": 2,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 2
+        }
+      ],
+      "1775541619034": [
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 5655,
+          "repeat_count": 2,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 2
+        },
+        {
+          "gift_id": 5655,
+          "repeat_count": 2,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 2
+        }
+      ],
+      "1775541619239": [
+        {
+          "gift_id": 5269,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 5269,
+          "repeat_count": 1,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 1
+        }
+      ],
+      "1775541627570": [
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 1
+        }
+      ],
+      "1775541634619": [
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 1
+        }
+      ],
+      "1775541859876": [
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 1
+        }
+      ],
+      "1775541901993": [
+        {
+          "gift_id": 6064,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 6064,
+          "repeat_count": 1,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 1
+        }
+      ],
+      "1775541956844": [
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 1
+        }
+      ],
+      "1775541957599": [
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 5655,
+          "repeat_count": 1,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 1
+        }
+      ],
+      "1775542013643": [
+        {
+          "gift_id": 5333,
+          "repeat_count": 1,
+          "delta": 1,
+          "is_final": false,
+          "diamond_total": 1
+        },
+        {
+          "gift_id": 5333,
+          "repeat_count": 1,
+          "delta": 0,
+          "is_final": true,
+          "diamond_total": 1
+        }
+      ]
+    }
+  }
+}
